@@ -14,4 +14,4 @@ def click_when_green(mouse, PIXEL_X, PIXEL_Y, GREEN_RGB, TIME_LIMIT):
             mouse.position = (PIXEL_X, PIXEL_Y)
             mouse.press(Button.left)
             mouse.release(Button.left)
-            break
+            return
